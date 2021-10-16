@@ -24,9 +24,9 @@ const FeedCard = ({ title, type, text, author, authorAvatar, image }) => (
       <Image className="rounded-t-xl" objectFit="cover" src={image} alt="" layout='fill' />
     </div>
     
-      </div>
-    </div>
-  </Card>
+
+
+</Card>
 );
 
 const Feed = () => {
