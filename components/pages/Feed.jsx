@@ -23,11 +23,11 @@ const FeedCard = ({ title, type, text, author, authorAvatar, image }) => (
     <div className="h-32 w-full relative">
       <Image className="rounded-t-xl" objectFit="cover" src={image} alt="" layout='fill' />
     </div>
-    
-
 
 </Card>
 );
+
+
 
 const Feed = () => {
   const homeItems = Store.useState(getHomeItems);
